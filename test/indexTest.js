@@ -12,7 +12,7 @@ describe('App', function () { 
             .then(resp=>resp.json())
             .then((data)=>{
                 length=Object.keys(data).length;
-                assert.notEqual(result, 0);
+                assert.notEqual(length, 0);
             })
         }); 
     });
@@ -44,6 +44,6 @@ describe('App', function () { 
         });
     });
 
-    
+
 }); 
  

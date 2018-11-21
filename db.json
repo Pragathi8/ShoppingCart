@@ -1,23 +1,13 @@
 {
   "action": [
     {
-      "id": "1",
-      "poster": "src/images/sample2.jpg",
-      "title": "pink rainbow print girls tee",
-      "style": "MS13KT1906",
-      "colour": "gray",
-      "size": "s",
-      "quantity": "1",
-      "price": 17
-    },
-    {
       "id": "2",
       "poster": "src/images/sample1.jpg",
       "title": "solid green cotton tshirt",
       "style": "MS13KT1906",
       "colour": "blue",
       "size": "S",
-      "quantity": "1",
+      "quantity": "2",
       "price": 11
     },
     {

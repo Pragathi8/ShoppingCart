@@ -11,6 +11,9 @@ runs the webpack dev server and automatically updates the changes in browser
 `json-server --watch db.json`
 runs the json-server in the background which helps the application with data for crud operations
 
+`npm run test`
+runs the associated testcases to check the working of json-server
+
 # Contribution
 EDIT button let you edit the product quantity and choose appropriate size
 REMOVE button deletes the product from cart
