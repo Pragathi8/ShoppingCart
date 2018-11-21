@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping cart</title>
+</head>
+<body>
+    <div id="header">
+        <header>your Shopping bag</header>
+    </div>
+    <div class="cart">
+        <div class="row column-labels">
+                <div class="col-6 no-of-items">ITEMS</div>
+                <div class="col-2">SIZE</div>
+                <div class="col-2">QTY</div>
+                <div class="col-2">PRICE</div>
+        </div>
+       
+        <div class="secondsubcart">
+        </div>
+
+        <div class="mainCart">
+            <div class="flex2">
+                <div class="item1">
+                    <div class="totalcal">
+                        <form class="form-inline">
+                            <div class="form-group mb-2">
+                                <label for="promotioncode" class="sr-only">promotion code</label>
+                                <input type="text" readonly class="form-control-plaintext" id="promotioncode" value="Enter promotion code">
+                            </div>
+                            <div class="form-group mx-sm-3 mb-2">
+                                <label for="Password" class="sr-only">Password</label>
+                                <input type="password" class="form-control" id="Password"/>
+                            </div>
+                            <button type="submit" class="btn btn-outline-secondary mb-2 apply">Apply</button>
+                        </form>
+                    </div>
+                    <div class="calculation"></div>
+                    <div class="checkout">
+                        <form class="form-inline">
+                            <button type="button" class="btn btn-outline-secondary" id="continue">Continue Shopping</button>
+                            <button type="button" class="btn btn-primary" id="checkoutbtn">CHECKOUT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="item2 suggestions">
+                    <aside>
+                        <ul>
+                            <li class="help"><a href="#">Need help or have questions?</a></li>
+                            <li class="call"><a href="#">Call Customer Service at 1-800-555-5555</a></li>
+                            <li class="chat"><a href="#">Chat with one of our stylist</a></li>
+                            <li class="return"><a href="#">See return & exchange policy</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+            <p><img src="src/images/lock.jpg" alt="lock" class="lock"> Secure checkout. Shopping is always safe & secure</p>
+        </footer>
+    </div>
+    <script src="src/js/index.js"></script>
+</body>
+</html>
